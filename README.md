@@ -103,3 +103,10 @@ Designed to be simple, portable, and OSDev‑friendly.
 ## 🦄 Support
 
 For support me you can donate : **https://srcfrcg.itch.io/buildiso**
+
+---
+
+## 🕶️ Next update:
+
+February 8, 2026
+Planned improvements and enhancements coming soon.
