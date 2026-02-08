@@ -36,7 +36,7 @@ MyOS/
 └── MyOS.csproj
 
 
-- `boot/boot.bin` → your 512‑byte bootloader  
+- `boot/boot.bin` → your 512‑byte (0x55AA) bootloader or your 2048-byte (El Torito no‑emulation) bootloader
 - `iso_root/` → all files to include in the ISO (kernel, config, etc.)
 
 ---
