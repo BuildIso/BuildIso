@@ -122,3 +122,9 @@ BuildIso@proton.me
 ## 🌍 Web
 
 [BuildIso.com](https://buildiso.com/) What is this? It's a website where you can browse and learn more. If you have any suggestions, feel free to contact me via email or share them in the discussions or issues. This site is in beta. Enjoy!
+
+---
+
+## ⚙️ SHA256 Checksum
+
+The official SHA256 hash of the v2026.2 executable (as verified on VirusTotal) is: 86d976bede96cdb9d0e731eae1aad394f6231e1ec4f02549d178b6a8fc7c83f0 This checksum corresponds to the BuildIso v2026.2 release file.
