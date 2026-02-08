@@ -81,7 +81,7 @@ in the project root.
 ## 🧩 Requirements
 
 - .NET 6/7/8/9/10 runtime  
-- A valid 512‑byte bootloader (`boot.bin`)  
+- A valid 512‑byte or 2048-byte bootloader (`boot.bin`)  
 - A populated `iso_root/` directory  
 
 ---
@@ -108,7 +108,7 @@ For support me you can donate : **https://srcfrcg.itch.io/buildiso**
 
 ## 🕶️ Next update:
 
-February 8, 2026.
+February 12, 2026.
 Planned improvements and enhancements coming soon.
 
 ---
