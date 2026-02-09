@@ -79,7 +79,7 @@ Each release includes an official SHA256 checksum. Developers should verify the 
 
 Example (v2026.2):
 
-86d976bede96cdb9d0e731eae1aad394f6231e1ec4f02549d178b6a8fc7c83f0
+504C87A6A3C2428319CDE62CA7B1DE1C28E04861E3225461AB519A2CCF876057
 
 
 If the hash does not match, do not run the file.
