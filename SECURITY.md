@@ -77,9 +77,9 @@ Any executable obtained outside these sources should be considered untrusted.
 
 Each release includes an official SHA256 checksum. Developers should verify the integrity of downloaded binaries before execution.
 
-Example (v2026.2):
+Example (v2026.3):
 
-504C87A6A3C2428319CDE62CA7B1DE1C28E04861E3225461AB519A2CCF876057
+f574393d10a669ca19ea76aa3cd971b6a232f057c8c12d1b1422ae663b4b0f7c
 
 
 If the hash does not match, do not run the file.
