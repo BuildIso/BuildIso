@@ -127,4 +127,4 @@ BuildIso@proton.me
 
 ## ⚙️ SHA256 Checksum
 
-The official SHA256 hash of the v2026.2 executable (as verified on PowerShell) is: f574393d10a669ca19ea76aa3cd971b6a232f057c8c12d1b1422ae663b4b0f7c This checksum corresponds to the BuildIso v2026.2 release file.
+The official SHA256 hash of the v2026.3 executable (as verified on PowerShell) is: f574393d10a669ca19ea76aa3cd971b6a232f057c8c12d1b1422ae663b4b0f7c This checksum corresponds to the BuildIso v2026.3 release file.
