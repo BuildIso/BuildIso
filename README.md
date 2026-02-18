@@ -108,7 +108,7 @@ For support me you can donate : **https://srcfrcg.itch.io/buildiso**
 
 ## 🕶️ Next update:
 
-February 12, 2026.
+COMING SOON.
 Planned improvements and enhancements coming soon.
 
 ---
