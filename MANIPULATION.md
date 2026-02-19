@@ -10,6 +10,7 @@ Option A): Move your working folder containing BuildIso.exe to a non-protected f
 Option B): Run it with administrator rights (not recommended because it has not been tested).
 When you launch or download the executable BuildIso.exe, make sure the link is indeed https://github.com/BuildIso/BuildIso (active) or https://github.com/htmluser-hub/BuildIso (archived).
 The only official BuildIso site is https://buildiso.com
+Official of the version Pro of BuildIso Pro: https://srcfrcg.itch.io/buildisopro
 
 # Official mirrors
 
