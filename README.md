@@ -128,3 +128,11 @@ BuildIso@proton.me
 ## ⚙️ SHA256 Checksum
 
 The official SHA256 hash of the v2026.4 executable (as verified on GitHub) is: sha256:9b57251e4d895ac76743336fd10dae77fe535c88af943a07c877ccfa646f21eb This checksum corresponds to the BuildIso v2026.4 release file.
+
+---
+
+## 🪙 BuildIso Pro
+
+BuildIsoPro.exe is now available it costs 4.99€ EUR Link :
+https://srcfrcg.itch.io/buildisopro
+BuildIso Pro is MIT
