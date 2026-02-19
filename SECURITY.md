@@ -70,6 +70,7 @@ Official website: https://buildiso.com
 
 Additional mirror: https://srcfrcg.itch.io/buildiso
  (may host older versions)
+Official Version of pro: https://srcfrcg.itch.io/buildisopro
 
 Any executable obtained outside these sources should be considered untrusted.
 
