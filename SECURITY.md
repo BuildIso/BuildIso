@@ -78,12 +78,12 @@ Any executable obtained outside these sources should be considered untrusted.
 
 Each release includes an official SHA256 checksum. Developers should verify the integrity of downloaded binaries before execution.
 
-Example (v2026.4):
+Example (v2026.5 win64):
 
-sha256:9b57251e4d895ac76743336fd10dae77fe535c88af943a07c877ccfa646f21eb
+sha256:4ea898a52e99e61c1bc8d00a3b8aaf59d7ae0d32ee1a9f158ddf055042876813
 
 
-If the hash does not match, do not run the file.
+If the hash does not match, do not run the file, to see for macOS x64, macOS amd64 and linux x64 go to release after check the line sha256 of assets on GitHub.
 
 **Administrator Privileges**
 
