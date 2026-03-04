@@ -95,8 +95,8 @@ Feel free to modify, fork, and improve.
 
 ## ❤️ Credits
 
-Created by **Src**, with guidance and support from Copilot.  
-Designed to be simple, portable, and OSDev‑friendly.
+Created by **Srcfrcg, htmluser-hub, BuildIso**, with guidance and support from Copilot.  
+Designed to be simple, portable, and OSDev‑friendly. (solo dev)
 
 ---
 
