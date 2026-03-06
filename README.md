@@ -136,3 +136,9 @@ The official SHA256 hash of the v2026.5 win64 executable (as verified on GitHub)
 BuildIsoPro.exe is now available it costs 4.99€ EUR Link :
 https://srcfrcg.itch.io/buildisopro
 BuildIso Pro is MIT
+
+---
+
+## 🗣️ Websites:
+
+Official websites is buildiso.com, api.buildiso.com and docs.buildiso.com.
