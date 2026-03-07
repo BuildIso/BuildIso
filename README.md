@@ -9,7 +9,8 @@ No VSIX.
 No workloads.  
 No installers.  
 Just one `.exe` dropped into your project folder.
-<img width="748" height="726" alt="image" src="https://github.com/user-attachments/assets/38e16972-cbe0-4372-b446-fe5f5dc24759" />
+
+<img width="348" height="326" alt="image" src="https://github.com/user-attachments/assets/38e16972-cbe0-4372-b446-fe5f5dc24759" />
 
 ---
 
