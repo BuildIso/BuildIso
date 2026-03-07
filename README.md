@@ -40,6 +40,8 @@ MyOS/
 
 - `boot/boot.bin` → your 512‑byte (0x55AA) bootloader or your 2048-byte (El Torito no‑emulation) bootloader
 - `iso_root/` → all files to include in the ISO (kernel, config, etc.)
+  
+![BuildIsoDemo](https://github.com/user-attachments/assets/2c0d8960-37e3-4673-ade7-161baddb2759)
 
 ---
 
