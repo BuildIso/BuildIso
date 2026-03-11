@@ -30,13 +30,13 @@ Just one `.exe` dropped into your project folder.
 
 Your OS project should look like this:
 
-MyOS/
+`MyOS/
 ├── BuildIso.exe
 ├── boot/
 │    └── boot.bin
 ├── iso_root/
 │    └── KERNEL.BIN
-└── MyOS.csproj
+└── MyOS.csproj`
 
 
 - `boot/boot.bin` → your 512‑byte (0x55AA) bootloader or your 2048-byte (El Torito no‑emulation) bootloader
@@ -111,7 +111,7 @@ For support me you can donate : **https://srcfrcg.itch.io/buildiso**
 
 ## 🕶️ Next update:
 
-COMING SOON.
+14 March 2026.
 Planned improvements and enhancements coming soon.
 
 ---
