@@ -2,7 +2,7 @@
 To launch the file you need type this in your terminal: 
 ```bash
 cd YourFolderWhereBuildIso_linux-x64Is
-```bash
+``` 
 ```bash
 chmod +x BuildIso_linux-x64
 ```
