@@ -152,3 +152,8 @@ BuildIso Pro is MIT
 ## 🗣️ Websites:
 
 Official websites is buildiso.com, api.buildiso.com and docs.buildiso.com.
+
+---
+
+## 🤔 How to contribute
+To contribute please write a issue or a discussion or a mail.
