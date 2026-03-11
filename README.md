@@ -5,6 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/stars/BuildIso/BuildIso?style=social">
   <img src="https://img.shields.io/github/downloads/BuildIso/BuildIso/total">
+  <img src="https://img.shields.io/github/downloads/BuildIso/BuildIso/total">
 </p>
 
 
