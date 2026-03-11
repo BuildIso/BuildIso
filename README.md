@@ -42,8 +42,7 @@ Your OS project should look like this:
 
 │    └── KERNEL.BIN
 
-└── MyOS.csproj
-`
+└── MyOS.csproj`
 
 
 - `boot/boot.bin` → your 512‑byte (0x55AA) bootloader or your 2048-byte (El Torito no‑emulation) bootloader
