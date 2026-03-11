@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/github/stars/BuildIso/BuildIso?style=social">
   <img src="https://img.shields.io/github/downloads/BuildIso/BuildIso/total">
     <img src="https://img.shields.io/github/license/BuildIso/BuildIso">
+  <img src="https://img.shields.io/badge/Solo%20dev-100%25-white">
+  <img src="https://img.shields.io/github/contributors/BuildIso/BuildIso">
 </p>
 
 
