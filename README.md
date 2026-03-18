@@ -182,7 +182,7 @@ To contribute please write a issue or a discussion or a mail.
 ## Winget
 
 > [!IMPORTANT]
-> BuildIso is now in winget, type winget install BuildIso.BuildIso and enjoy.
+> BuildIso is now in winget, type ```winget install BuildIso.BuildIso``` in your PowerShell and enjoy.
 
 > [!WARNING]
-> The official package and the only is BuildIso.BuildIso
+> The official package and the only is BuildIso.BuildIso and only for Windows
