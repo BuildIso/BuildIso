@@ -169,7 +169,7 @@ BuildIso Pro is MIT
 
 ## 🗣️ Websites:
 
-Official websites is buildiso.com, api.buildiso.com and docs.buildiso.com.
+Official websites is buildiso.com, api.buildiso.com and docs.buildiso.com and install.buildiso.com and lcrawl.buildiso.com and community.buildiso.com.
 
 ---
 
@@ -186,3 +186,9 @@ To contribute please write a issue or a discussion or a mail.
 
 > [!WARNING]
 > The official package and the only is BuildIso.BuildIso and only for Windows
+
+---
+
+## How to use BuildIso?
+
+Answered in [docs answer 3](https://docs.buildiso.com/answer/3)
