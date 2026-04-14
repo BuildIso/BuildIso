@@ -3,21 +3,46 @@ using System.IO;
 using System.Net.Http;
 using DiscUtils.Iso9660;
 using System.Text;
-using System.Threading; // ← AJOUTE ÇA
+using System.Threading;
 
 
 class Program
 {
+    private static int RunInit()
+    {
+        string projectDir = Directory.GetCurrentDirectory();
+        string isoRoot = Path.Combine(projectDir, "iso_root");
+        string bootDir = Path.Combine(projectDir, "boot");
+        string bootAsm = Path.Combine(bootDir, "boot.asm");
+
+        if (!Directory.Exists(isoRoot))
+            Directory.CreateDirectory(isoRoot);
+
+        if (!Directory.Exists(bootDir))
+            Directory.CreateDirectory(bootDir);
+
+        if (!File.Exists(bootAsm))
+            File.WriteAllText(bootAsm, "");
+
+        Console.WriteLine("Initialized project structure:");
+        Console.WriteLine(" - iso_root/");
+        Console.WriteLine(" - boot/");
+        Console.WriteLine(" - boot/boot.asm");
+        return 0;
+    }
+
     public static int totalFiles;
     public static int processedFiles;
 
-    private static bool spinnerRunning;          // ← AJOUT
-    private static Thread? spinnerThread;        // ← AJOUT
+    private static bool spinnerRunning;        
+    private static Thread? spinnerThread;      
 
 
     static int Main(string[] args)
     {
-        const string VERSION = "2026.7";
+        const string VERSION = "2026.8";
+        if (args.Length > 0 && args[0].Equals("init", StringComparison.OrdinalIgnoreCase))
+            return RunInit();
 
         // --- VERSION MODE ---
         if (args.Length > 0 && args[0].Equals("--version", StringComparison.OrdinalIgnoreCase))
@@ -33,7 +58,6 @@ class Program
 
                     var json = client.GetStringAsync("https://api.github.com/repos/BuildIso/BuildIso/releases/latest").Result;
 
-                    // extraction simple du tag_name
                     string marker = "\"tag_name\":";
                     int i = json.IndexOf(marker);
                     if (i != -1)
@@ -63,12 +87,12 @@ class Program
 
 
         Console.WriteLine("========================================");
-        Console.WriteLine("      Welcome to BuildIso v2026.7");
+        Console.WriteLine("      Welcome to BuildIso v2026.8");
         Console.WriteLine("========================================\n");
 
         string projectDir;
 
-        // --- INTERACTIVE MODE ---
+        // --- INTERACTIVE MODE --- (if not BuildIso.exe "path")
         if (args.Length == 0)
         {
             Console.WriteLine("No project path provided.");
@@ -101,7 +125,7 @@ class Program
         }
 
         // ===============================
-        //   UEFI + Secure Boot questions
+        //   UEFI + Secure Boot questions (uefi if true)
         // ===============================
 
         Console.Write("Do you want to include UEFI support? (Y/n): ");
@@ -127,7 +151,7 @@ class Program
         Console.WriteLine("===========================\n");
 
         // ===============================
-        //   BUILD PROCESS
+        //   BUILD PROCESS (if iso true)
         // ===============================
 
         projectDir = projectDir.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
@@ -185,7 +209,6 @@ class Program
 
         try
         {
-            // INITIALISATION BARRE DE PROGRESSION
             Program.totalFiles = CountFiles(isoRoot);
             Program.processedFiles = 0;
             Console.WriteLine("Adding files:");
@@ -224,7 +247,7 @@ class Program
 
             spinnerRunning = false;
             spinnerThread.Join();
-            Console.WriteLine(); // pour passer à la ligne proprement
+            Console.WriteLine(); 
 
 
 
@@ -283,7 +306,6 @@ class Program
 
         long totalBytes = isoRootBytes + bootBytes;
 
-        // marge de sécurité 10%
         totalBytes = (long)(totalBytes * 1.10);
 
         return totalBytes / (1024 * 1024);
@@ -469,7 +491,7 @@ public class ReadmeGenerator
         md.AppendLine("- Secure Boot: **" + (secureBoot ? "YES" : "NO") + "**");
         md.AppendLine();
         md.AppendLine("## Output");
-        md.AppendLine("This folder contains the generated ISO and build logs.");
+        md.AppendLine("This folder contains the generated ISO and build logs. Please use a LBA Reader for call iso_root.");
         md.AppendLine();
 
         System.IO.File.AppendAllText(_path, md.ToString());
