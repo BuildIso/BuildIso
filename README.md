@@ -18,39 +18,65 @@
 ---
 # BuildIso
 No way! Iso generator?
-# BuildIso – A Lightweight ISO Builder for OSDev
-![BuildIsoDemo](https://github.com/user-attachments/assets/2c0d8960-37e3-4673-ade7-161baddb2759)
+# BuildIso – A Powerful ISO Builder for OSDev
+<img width="426" height="240" alt="BuildIsoDemo" src="https://github.com/user-attachments/assets/94b36683-cd5e-4fd8-bb20-7890fe9a1ef2" />
 
-**BuildIso** is a tiny, portable, dependency‑free ISO generator designed for OS developers.  
-It integrates directly into Visual Studio as an External Tool and produces a bootable ISO with a single click.
+**BuildIso** is powerful ISO Generator.  
+It includes a large CLI options like
+```
+BuildIso init
+BuildIso -p  [options]
 
-No VSIX.  
-No workloads.  
+-p, --project 
+-b, --boot 
+-i, --iso 
+-o, --output 
+-V, --volume-id
+
+--uefi          Add UEFI boot (in addition to BIOS)
+--secureboot    Secure Boot note (requires --uefi)
+--bios-only     BIOS-only boot
+--uefi-only     UEFI-only boot
+
+--plugins-off          Disable all plugins
+-Pu, --plugin    Allow specific plugin by name
+
+--silent         Suppress all output
+--no-prompt      Skip interactive prompts
+--no-spinner     Disable spinner
+--no-progress    Disable progress indicators
+--verbose        Verbose step output
+```
+init             Initialize project structure in current directory
+version          Print version
+help             Print this help.
+
+ 
 No installers.  
-Just one `.exe` dropped into your project folder.
+Just one `executable` dropped into your project folder.
 
-<img width="348" height="326" alt="image" src="https://github.com/user-attachments/assets/38e16972-cbe0-4372-b446-fe5f5dc24759" />
+<img width="348" height="326" alt="image" src="https://github.com/user-attachments/assets/e2b30e2d-5161-475f-86de-9e21e614b088" />
+
 
 ---
 
-## 🚀 Features
+## Features
 
-- **Portable** – one single executable, no dependencies  
+- **Portable** – one single executable  
 - **Bootable ISO generation** (El Torito, No‑Emulation)  
-- **Automatic project name detection**  
 - **Works with any OSDev project structure**  
-- **Integrates into Visual Studio External Tools**  
-- **Zero configuration required**
+- **Large CLI options**
+- **Plugins**
 
 ---
 
-## 📁 Project Structure
+## Project Structure (if you double-click the exe directly)
 
 Your OS project should look like this:
 
 MyOS/
 
-├── BuildIso.exe
+├── BuildIso (executable)
 
 ├── boot/
 
@@ -58,107 +84,84 @@ MyOS/
 
 ├── iso_root/
 
-│    └── KERNEL.BIN
-
-└── MyOS.csproj
+    └── Your Files
 
 
 - `boot/boot.bin` → your 512‑byte (0x55AA) bootloader or your 2048-byte (El Torito no‑emulation) bootloader
-- `iso_root/` → all files to include in the ISO (kernel, config, etc.)
+- `iso_root/` → all files to include in the ISO (kernel, config, etc.) note: BuildIso dosen't include a LBA reader.
 
 ---
 
-## 🛠️ Visual Studio Integration
-
-1. Open **Tools → External Tools…**
-2. Click **Add**
-3. Fill in the fields:
-
-- **Title:** `Build ISO`
-- **Command:** `$(ProjectDir)\BuildIso.exe`
-- **Arguments:** `$(ProjectDir)`
-- **Initial Directory:** `$(ProjectDir)`
-
-Click **OK**.
-
-You now have a **Build ISO** entry in the Tools menu.
-
-(Optional) Add it to the toolbar for one‑click builds.
-
----
-
-## 📦 How It Works
+## How It Works
 
 BuildIso:
 
-1. Reads the project directory passed by Visual Studio  
-2. Detects the `.csproj` file  
-3. Extracts the project name  
-4. Recursively adds all files from `iso_root/`  
-5. Loads `boot/boot.bin` as the El Torito boot image  
-6. Generates a bootable ISO named:
+1. Reads the project directory. 
+2. Extracts the project name  
+3. Recursively adds all files from `iso_root/`  
+4. Loads `boot/boot.bin` as the El Torito boot image  
+5. Generates a bootable ISO named:
 
-<ProjectName>.iso
+output.iso
 
 
-in the project root.
+in the project.
 
 ---
 
-## 🧩 Requirements
-
-- .NET 6/7/8/9/10 runtime  
+## Requirements (if you double-click the exe directly)
+ 
 - A valid 512‑byte or 2048-byte bootloader (`boot.bin`)  
 - A populated `iso_root/` directory  
 
 ---
 
-## 📜 License
+## License
 
 MIT License.  
 Feel free to modify, fork, and improve.
 
 ---
 
-## ❤️ Credits
+## Credits
 
-Created by **Srcfrcg, htmluser-hub, BuildIso**, with guidance and support from Copilot.  
+Created by **srcfrcg, htmluser-hub, BuildIso**, with guidance and support from Copilot.  
 Designed to be simple, portable, and OSDev‑friendly. (solo dev)
 
 ---
 
-## 🦄 Support
+## Support
 
 For support me you can donate : **https://srcfrcg.itch.io/buildiso**
 
 ---
 
-## 🕶️ Next update:
+## Next update:
 
 Coming soon.
 Planned improvements and enhancements coming soon.
 
 ---
 
-## 📬 Contact
+## Contact
 
 BuildIso@proton.me
 
 ---
 
-## 🌍 Web
+## Web
 
 [BuildIso.com](https://buildiso.com/) What is this? It's a website where you can browse and learn more. If you have any suggestions, feel free to contact me via email or share them in the discussions or issues. This site is in beta. Enjoy!
 
 ---
 
-## ⚙️ SHA256 Checksum
+## SHA256 Checksum
 
-The official SHA256 hash of the v2026.8 win64 executable (as verified on GitHub) is: sha256:558a3d556de0c43c1c6a06795fd3232983d1f243be660e4ae3cebe9e15126f3c This checksum corresponds to the BuildIso v2026.8 win64 release file.
+The official SHA256 hash of the v2026.9 win64 executable (as verified on GitHub) is: sha256:7429dda0fa85bd01d0f9554d63ad4198eebf3d19135af5b3c2bef6b1cb2fed83 This checksum corresponds to the BuildIso v2026.9 win64 release file.
 
 ---
 
-## 🪙 BuildIso Pro
+## BuildIso Pro
 
 BuildIso Pro adds advanced features for power users.
 BuildIsoPro.exe is now available it costs 4.99€ EUR Link :
@@ -167,13 +170,13 @@ BuildIso Pro is MIT
 
 ---
 
-## 🗣️ Websites:
+## Websites:
 
 Official websites is buildiso.com, api.buildiso.com and docs.buildiso.com and install.buildiso.com and lcrawl.buildiso.com and community.buildiso.com.
 
 ---
 
-## 🤔 How to contribute
+## How to contribute
 
 To contribute please write a issue or a discussion or a mail.
 
@@ -192,3 +195,9 @@ To contribute please write a issue or a discussion or a mail.
 ## How to use BuildIso?
 
 Answered in [docs answer 3](https://docs.buildiso.com/answer/3)
+
+---
+
+## Note plugins
+
+Note: the plugins executed by you can contain malwares please execute dll with total confidence
