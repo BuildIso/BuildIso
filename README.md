@@ -21,7 +21,7 @@ No way! Iso generator?
 # BuildIso – A Powerful ISO Builder for OSDev
 <img width="426" height="240" alt="BuildIsoDemo" src="https://github.com/user-attachments/assets/94b36683-cd5e-4fd8-bb20-7890fe9a1ef2" />
 
-**BuildIso** is powerful ISO Generator.  
+**BuildIso** is a powerful ISO Generator.  
 It includes a large CLI options like
 ```
 BuildIso init
