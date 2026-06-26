@@ -16,6 +16,9 @@
 
 
 ---
+# Big news
+## Tell the features in the next update at GitHub Issues or BuildIso@proton.me
+
 # BuildIso
 No way! Iso generator?
 # BuildIso – A Powerful ISO Builder for OSDev
