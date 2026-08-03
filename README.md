@@ -160,7 +160,7 @@ BuildIso@proton.me
 
 ## SHA256 Checksum
 
-The official SHA256 hash of the v20267.1 win64 executable (as verified on GitHub) is: sha256:a4680da97b47a18375f664326c1649694862d55a44643274f086f2bda08aadbc This checksum corresponds to the BuildIso v2027.1 win64 release file.
+The official SHA256 hash of the v2027.1 win64 executable (as verified on GitHub) is: sha256:a4680da97b47a18375f664326c1649694862d55a44643274f086f2bda08aadbc This checksum corresponds to the BuildIso v2027.1 win64 release file.
 
 ---
 
