@@ -77,6 +77,7 @@ Any executable obtained outside these sources should be considered untrusted.
 ## Blacklist Sources
 
 Softonic
+Descargatic
 
 ## Integrity Verification
 
