@@ -74,6 +74,10 @@ Official Version of pro: https://srcfrcg.itch.io/buildisopro
 
 Any executable obtained outside these sources should be considered untrusted.
 
+## Blacklist Sources
+
+Softonic
+
 ## Integrity Verification
 
 Each release includes an official SHA256 checksum. Developers should verify the integrity of downloaded binaries before execution.
