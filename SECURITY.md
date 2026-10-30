@@ -84,9 +84,9 @@ Descargatic
 
 Each release includes an official SHA256 checksum. Developers should verify the integrity of downloaded binaries before execution.
 
-Example (v2027.1 win64):
+Example (v2027.2 win64):
 
-sha256:a4680da97b47a18375f664326c1649694862d55a44643274f086f2bda08aadbc
+sha256:7317924844e02c4b055982901df43cddb2c06dd151da8c53b68fe2960b55bcdd
 
 
 If the hash does not match, do not run the file, to see for macOS x64, macOS amd64 and linux x64 go to release after check the line sha256 of assets on GitHub.
