@@ -1,0 +1,9 @@
+Website: buildiso.com
+Docs: docs.buildiso.com
+API: api.buildiso.com
+LCrawl: lcrawl.buildiso.com
+Install Section: install.buildiso.com
+Community Forum (repo): community.buildiso.com
+
+HTTPS Website (HyperText Transfer Protocol Secure).
+
