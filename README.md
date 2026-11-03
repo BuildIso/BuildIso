@@ -17,7 +17,7 @@
 
 ---
 # Big news
-## 2,200 downloads! v2027.2 coming soon! Tell me your suggestions at BuildIso@proton.me! (i'm sorry, i'm so late for the v2027.2)
+## 2,300 downloads! v2027.3 coming soon! Tell me your suggestions at BuildIso@proton.me!
 # BuildIso
 No way! Iso generator?
 # BuildIso – A Powerful ISO Builder for OSDev
@@ -27,32 +27,75 @@ No way! Iso generator?
 It includes a large CLI options like
 ```
 BuildIso init
-BuildIso -p  [options]
+BuildIso -p [options]
 
--p, --project 
--b, --boot 
--i, --iso 
--o, --output 
+-p, --project
+-b, --boot
+-i, --iso
+-o, --output
 -V, --volume-id
 
---uefi          Add UEFI boot (in addition to BIOS)
---secureboot    Secure Boot note (requires --uefi)
---bios-only     BIOS-only boot
---uefi-only     UEFI-only boot
+--uefi              Add UEFI boot (in addition to BIOS)
+--secureboot        Secure Boot note (requires --uefi)
+--bios-only         BIOS-only boot
+--uefi-only         UEFI-only boot
+--boot-priority     Boot priority: bios|uefi|auto
 
---plugins-off          Disable all plugins
--Pu, --plugin    Allow specific plugin by name
+--include           Include glob pattern
+--exclude           Exclude glob pattern
+--collision-policy  rename|fail|skip
+--max-files         Maximum files to scan
+--max-file-size     Maximum size per file
+--max-depth         Maximum directory traversal depth
+--max-size          Maximum generated ISO size
 
---silent         Suppress all output
---no-prompt      Skip interactive prompts
---no-spinner     Disable spinner
---no-progress    Disable progress indicators
---verbose        Verbose step output
+--deep-verify       Verify ISO contents against source files
+--inspect           Inspect an ISO image
+--verify-iso        Verify an existing ISO
+--check             Run validation checks only
+--fix-safe          Apply safe automatic fixes
+--expect-sha256     Expected final ISO SHA-256
+
+--manifest          Generate MANIFEST.SHA256SUMS
+--cache             Hash cache file location
+
+--boot-test         Run QEMU boot test
+--qemu              QEMU executable path
+--ovmf              OVMF firmware path
+--boot-test-timeout Boot test timeout in seconds
+
+--reproducible      Enable reproducible build mode
+--source-date-epoch Fixed timestamp for reproducible builds
+
+--timeout           Maximum build duration
+--no-overwrite      Refuse overwriting existing ISO
+--keep-backup       Preserve previous ISO as .bak
+
+--config            Load JSON configuration file
+--profile           Profile: development|release|reproducible|ci
+
+--plugins-off       Disable all plugins
+-Pu, --plugin       Allow specific plugin by name
+--plugin-hash       Pin plugin SHA-256 hash
+--require-plugin-hash Require hash pin for all plugins
+--plugin-strict     Fail build on plugin errors
+--plugin-timeout    Plugin callback timeout
+
+--threads           Hashing worker threads
+
+--log               Write log file
+--no-log            Disable log file generation
+
+--silent            Suppress all output
+--no-prompt         Skip interactive prompts
+--no-spinner        Disable spinner
+--no-progress       Disable progress indicators
+--verbose           Verbose step output
+
+init                Initialize project structure in current directory
+version             Print version
+help                Print this help.
 ```
-init             Initialize project structure in current directory
-version          Print version
-help             Print this help.
-
  
 No installers.  
 Just one `executable` dropped into your project folder.
