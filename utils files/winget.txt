@@ -1,0 +1,5 @@
+Winget Status: v2027.1=updated - v2027.2=not updated (soon)
+
+BuildIso.BuildIso is the unique package.
+
+If errors tell me at BuildIso@proton.me
