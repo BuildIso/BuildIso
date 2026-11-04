@@ -1,0 +1,33 @@
+Software Integrity & Security
+Official vs. Unauthorized Versions
+BuildIso is distributed through official channels only. Using unauthorized or modified versions carries significant risks.
+
+Risks of Unauthorized Versions
+Using modified or illegally obtained versions may result in:
+
+Missing critical features or functionality
+Unpatched security vulnerabilities
+System compatibility issues
+No access to official support or updates
+Potential malware or system compromise
+Version Numbering
+Official BuildIso versions follow this format: vXXXX.X (e.g., v2026.1)
+
+Examples of unauthorized version indicators:
+
+v2026.1-CRACKED
+Custom build IDs (e.g., b0947)
+Non-standard version strings
+Why Use Official Versions?
+Security: Regular security patches and updates
+Reliability: Tested and stable releases
+Support: Access to official documentation and support channels
+Legal Compliance: Licensed use and protection
+Features: Full functionality and latest improvements
+Official Download Sources
+Download BuildIso only from:
+
+Official GitHub: github.com/BuildIso/BuildIso
+Official Website: buildiso.com
+Report Security Issues
+If you discover a security vulnerability or suspect unauthorized software, please report it to BuildIso@proton.me.
