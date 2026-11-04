@@ -1,0 +1,14 @@
+Contributing
+Contribute to a project
+To contribute to a BuildIso Projects, you can submit a mail to BuildIso@proton.me or noreply@buildiso.com.
+
+What if I contribute to a unofficial team of BuildIso Team?
+After submitting your contribution, it will be reviewed by the BuildIso Team. If your contribution is accepted, it will be added to the project and you may receive recognition for your contribution.
+
+Rules of Contribution
+Do not submit any malicious code or content.
+Ensure your contribution is original and does not violate any copyright.
+Follow the project's coding standards and guidelines.
+Submit your contribution in a clear and organized manner.
+Learn rules of contribution in The contribution rules page.
+  
