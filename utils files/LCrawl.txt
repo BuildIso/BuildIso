@@ -1,0 +1,19 @@
+What is LCrawl?
+LCrawl (Large Crawl) is a lightweight crawling service that retrieves web pages, extracts clean text or code, and returns structured JSON ready for indexing, analysis, or AI processing.
+
+Available Endpoints
+/api/v1/text returns cleaned textual content extracted from a crawled page, removing scripts, styles, and layout noise.
+
+/api/v1/code returns code‑focused content, preserving technical blocks and structures for repositories, documentation, or developer resources.
+
+How to Use LCrawl
+You can call LCrawl directly from any HTTP client. For example: curl "https://lcrawl.buildiso.com/api/v1/text?key=site/page" to retrieve extracted text, or curl "https://lcrawl.buildiso.com/api/v1/code?key=site/page" to retrieve code‑oriented output.
+
+What LCrawl Is Designed For
+LCrawl is built to power search engines, feed vector databases, support chatbots, and automate large‑scale content extraction without maintaining your own crawling infrastructure.
+
+Why LCrawl Exists
+The goal of LCrawl is to provide a simple, predictable, and fast API for collecting structured content from the web, making it easy to integrate into Workers, backends, or AI pipelines.
+
+Rate Limit
+LCrawl now has a rate limit of 30 requests per day.
