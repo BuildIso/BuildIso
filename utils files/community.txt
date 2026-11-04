@@ -1,1 +1,28 @@
+Community & Resources
+Official Channels
+For official BuildIso support and community engagement:
 
+Official GitHub - Report issues and view source code
+Official Website - Latest information and downloads
+Email: BuildIso@proton.me - For direct inquiries
+Community Contributions
+Community members are welcome to contribute to BuildIso. When contributing:
+
+Follow the Contribution Rules
+Ensure your code complies with the MIT License
+Respect the official team's guidelines and decisions
+Maintain professional conduct in all interactions
+Third-Party Projects
+Third-party projects using BuildIso must:
+
+Comply with the MIT License terms
+Include original copyright and license notices
+Not misrepresent the relationship with official BuildIso
+Not use BuildIso trademarks without permission
+License Compliance
+All BuildIso derivatives must follow the MIT License. Unauthorized modifications or redistributions that violate license terms may result in legal action.
+
+For license questions, contact BuildIso@proton.me.
+
+Reporting Issues
+Found a bug or security issue? Report it on GitHub or email BuildIso@proton.me.
