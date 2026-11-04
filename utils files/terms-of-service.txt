@@ -1,0 +1,103 @@
+Terms of Service
+1. Authentication
+BuildIso accounts use Firebase Authentication and Google OAuth for secure access.
+
+2. Website Content Policy
+Copying or reproducing the BuildIso website or its content without explicit permission is prohibited. For permission requests, contact BuildIso@proton.me.
+
+3. License
+BuildIso Projects are licensed under the MIT License:
+
+MIT License
+
+Copyright (c) 2026 BuildIso/htmluser-hub
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+4. Security Threats
+Phishing Attacks
+Phishing links are fraudulent attempts to steal your information. BuildIso has a strict policy against phishing. If you encounter a phishing link or suspicious email claiming to be from BuildIso:
+
+Do not click suspicious links or download attachments
+Report it immediately to BuildIso@proton.me
+5. DMCA Compliance
+Any unauthorized copying of buildiso.com, its subdomains, or content (including logos and branding) is subject to Digital Millennium Copyright Act (DMCA) takedown notice.
+
+6. User Conduct
+Users are expected to conduct themselves respectfully and responsibly. Prohibited behaviors include:
+
+Harassment or hate speech
+Abusive behavior toward other users
+Posting spam or irrelevant content
+Illegal or harmful activities
+BuildIso reserves the right to issue warnings, temporarily suspend, or permanently ban accounts that violate these guidelines.
+
+7. Intellectual Property
+All BuildIso content—including logos, designs, software, and documentation—is protected by copyright and trademark laws. Unauthorized copying, modification, or distribution is prohibited without prior written permission.
+
+8. Community Rules
+Treat other community members with respect
+Do not post spam or irrelevant content
+Report bugs and issues responsibly
+Follow all applicable laws and regulations
+9. Age Requirements
+Minimum Age: 15 years old (or the legal age of digital majority in your country, whichever is greater)
+
+By using BuildIso Community, you confirm that you meet this age requirement. Community moderation is conducted by human reviewers who may analyze posts for age-appropriate behavior. Users suspected to be underage may have their accounts terminated.
+
+10. Bots and Automated Access
+Bots and automated tools are permitted but must comply with our robots.txt policy: https://buildiso.com/robots.txt
+
+Creating accounts via DDoS attacks, bots, or other automated means is strictly prohibited.
+
+11. Virtual Currency (Coins)
+Coins are virtual currency for in-game use only. They:
+
+Have no real monetary value
+Cannot be exchanged for money or real goods
+Cannot be transferred between accounts
+Are used exclusively for BuildIso games and features
+12. Account Management
+Account Inactivity: Accounts inactive for 7 or more consecutive days may be automatically deleted.
+
+Account Security:
+
+Use a strong, unique password
+Do not reuse passwords from other services
+Do not store passwords in project files
+BuildIso is not responsible for compromised accounts due to user negligence
+If your account is hacked, contact BuildIso@proton.me immediately.
+
+13. pkgdb 2.0 Rules
+Package Submission Requirements:
+
+Do not submit packages containing malware or viruses
+Do not spam comments or pull requests
+All packages are automatically scanned and analyzed
+14. Community Projects
+File Limitations: Maximum file size is 1MB per upload.
+
+Privacy Notice: Private projects are not guaranteed to remain private.
+
+Data Storage: Data is stored via Firestore. Do not store passwords or sensitive credentials in project files.
+
+Community Platform: community.buildiso.com
+
+15. Acceptance of Terms
+By using BuildIso services, you agree to these Terms of Service and the MIT License. If you do not agree, please discontinue use immediately.
