@@ -1,0 +1,23 @@
+BuildIso Projects
+What are BuildIso Projects?
+BuildIso Projects includes all repositories of BuildIso (doesn't include BuildIso Pro). It contains: BuildIso, BuildIso Defender, BuildIso Encrypt, CXWNetwork, ripzip, and pkgdb.
+
+How to install BuildIso Projects?
+Launch SetupBuildIsoProjects.exe, then click "I agree" → "Next" → "Install" → "Wait" → "Finish"
+
+Where are the executables located after installing?
+All executables are located in C:\BuildIsoProjects (default path).
+
+Why is BuildIso Projects large?
+BuildIso Projects is large because it includes all repositories of BuildIso (except BuildIso Pro), which includes: BuildIso, BuildIso Defender, BuildIso Encrypt, CXWNetwork, ripzip, and pkgdb.
+
+What are the system requirements?
+The requirements for BuildIso Projects are as follows:
+
+Windows 11
+560 MB of available disk space
+Is BuildIso Projects free?
+Yes, BuildIso Projects is free because it doesn't include BuildIso Pro.
+
+Official Repository
+The official repository for BuildIso Projects is available at https://github.com/BuildIso/BuildIsoProjects.
