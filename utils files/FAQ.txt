@@ -1,0 +1,21 @@
+FAQ
+Frequently Asked Questions
+How was BuildIso created?
+BuildIso was created thanks to COSMOS since COSMOS was not compatible with Visual Studio 2026 Community but compatible with Visual Studio 2022 Community, BuildIso Team decided to create BuildIso for Visual Studio 2026 Community, its goal is simple: fast and light and optimized for entry-level computers.
+
+When was BuildIso created?
+BuildIso was created in 2026.
+
+What is BuildIso?
+BuildIso is a powerful ISO Generator with the following features:
+
+Portable – one single executable
+Bootable ISO generation (El Torito, No‑Emulation)
+Works with any OSDev project structure
+Large CLI options
+Plugins
+Who created BuildIso?
+BuildIso was created by the BuildIso Team.
+
+BuildIso is a solo project?
+Yes, BuildIso is a solo project developed by the BuildIso Team. (only one developer).
