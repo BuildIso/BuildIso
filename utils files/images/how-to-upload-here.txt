@@ -1,0 +1,2 @@
+Upload here is only for BuildIso tool.
+More informations: BuildIso@proton.me
