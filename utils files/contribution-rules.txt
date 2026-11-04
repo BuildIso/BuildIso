@@ -1,0 +1,16 @@
+Rules of Contributing
+What are the rules of contributing to BuildIso?
+When contributing to BuildIso, it's important to follow these rules:
+
+Respect the official team and their decisions.
+Do not contribute to unofficial teams without permission.
+Ensure your contributions are original and do not violate any licenses.
+Follow the guidelines set forth by the official BuildIso Team.
+Be respectful and collaborative with other contributors.
+Do not share or distribute unofficial versions of BuildIso without permission.
+Report any issues or bugs to the official BuildIso Team.
+Do not use the BuildIso name or logo for unofficial projects without permission.
+Do not distribute or promote any unauthorized modifications of BuildIso.
+Learn about contributing
+
+For more information about contributing to BuildIso, please refer to the Contributing page.
