@@ -1,0 +1,34 @@
+Email Communication
+Overview
+Email is a critical communication channel for BuildIso Projects. Users can submit bug reports, feature requests, and feedback directly to our team.
+
+Contact Information
+Send emails to:
+
+BuildIso@proton.me - General inquiries and support
+noreply@buildiso.com - Account notifications and OTP emails
+Email Guidelines
+To help us assist you effectively, please include:
+
+Your BuildIso Projects version number
+A clear subject line
+Detailed description of your issue or request
+Steps to reproduce any bugs (if applicable)
+Response Time
+Our team aims to respond promptly. Response times may vary based on volume and issue complexity.
+
+Security
+Important: We use Proton Mail for privacy and security. Proton Mail offers end-to-end encryption and operates under Swiss privacy laws.
+
+Fake Email Warnings
+Be cautious of emails falsely claiming to be from BuildIso. Always verify the sender's email address. If you receive a suspicious email:
+
+Do not click suspicious links or download attachments
+Report it immediately to BuildIso@proton.me
+Unsubscribe Options
+To unsubscribe from our mailing list, look for the unsubscribe link in any email.
+
+Note: Do not unsubscribe from noreply@buildiso.com if you want to receive account OTP emails.
+
+Additional Resources
+For detailed email submission rules, see Email Submission Rules.
