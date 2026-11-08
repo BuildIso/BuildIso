@@ -1,4 +1,4 @@
-Winget Status: v2027.1=updated - v2027.2=not updated (soon)
+Winget Status: v2027.1=updated - v2027.2=updated
 
 BuildIso.BuildIso is the unique package.
 
