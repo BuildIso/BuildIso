@@ -115,7 +115,7 @@ No installers.
 Just one `executable` dropped into your project folder.
 
 <img width="348" height="326" alt="image" src="https://github.com/user-attachments/assets/e2b30e2d-5161-475f-86de-9e21e614b088" />
-<img width="400" alt="BuildIso options" src="https://private-user-images.githubusercontent.com/245748806/695043985-fc2c3514-7346-4724-a7a8-91daf0a59430.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTQxNjk2NTksIm5iZiI6MTc5NDE2OTM1OSwicGF0aCI6Ii8yNDU3NDg4MDYvNjk1MDQzOTg1LWZjMmMzNTE0LTczNDYtNDcyNC1hN2E4LTkxZGFmMGE1OTQzMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMTA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTEwOFQyMDIyMzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZjY4YTRkNjIzN2IwZWY2ZTgwNTY0NTNhMmMyNzRmZjM4OWE3NWZiNzRkY2E5ZjlmYTcxN2EwZjAwMjMyNGE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.i3jleGsuMoP7JOQpJ-RN7EwJ40zE_O8OKB2YzqlIAJ0">
+<img width="400" alt="BuildIso options" src="https://github.com/user-attachments/assets/fc2c3514-7346-4724-a7a8-91daf0a59430">
 
 ---
 
