@@ -4,6 +4,7 @@ API: api.buildiso.com
 LCrawl: lcrawl.buildiso.com
 Install Section: install.buildiso.com
 Community Forum (repo): community.buildiso.com
+Report: report.buildiso.com (mail: report@buildiso.com)
 
 HTTPS Website (HyperText Transfer Protocol Secure).
 
