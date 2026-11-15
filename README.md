@@ -17,7 +17,7 @@
 
 ---
 # Big news
-## 2,300 downloads! v2027.3 coming soon! Tell me your suggestions at BuildIso@proton.me!
+## 2,600 downloads! v2027.3 coming soon! Tell me your suggestions at BuildIso@proton.me!
 # BuildIso
 No way! Iso generator?
 # BuildIso – A Powerful ISO Builder for OSDev
