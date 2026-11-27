@@ -18,7 +18,7 @@
 ---
 <a href="https://docs.buildiso.com/forum/AqER8_An">Why BuildIso changed the created_at in github.com/BuildIso/BuildIso?</a>
 # Big news
-## 2,800 downloads! v2027.3 coming soon (everytime big major updates)! Tell me your suggestions at BuildIso@proton.me!
+## 2,900 downloads! v2027.3 coming soon (everytime big major updates)! Tell me your suggestions at BuildIso@proton.me! (LBA is now here in v2027.2!)
 # BuildIso
 No way! Iso generator?
 # BuildIso – A Powerful ISO Builder for OSDev
